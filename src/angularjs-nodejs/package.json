@@ -5,13 +5,13 @@
     "angular": "1.4.x",
     "dialog-polyfill": "0.4.2",
     "fine-uploader": "~5.x.x",
-    "fine-uploader-traditional-server": "3.0.2"
+    "fine-uploader-traditional-server": "^3.0.3"
   },
   "engines": {
     "node" : ">=5.0.0"
   },
   "version" : "1.0.0",
   "scripts": {
-    "server": "PUBLIC_DIR=$(pwd)  NODE_MODULES_DIR=$(pwd)/node_modules/  UPLOADED_FILES_DIR=$(pwd)/uploads/ node node_modules/fine-uploader-traditional-server/nodejs"
+    "server": "set PUBLIC_DIR=$(pwd)  NODE_MODULES_DIR=$(pwd)/node_modules/  UPLOADED_FILES_DIR=$(pwd)/uploads/ node node_modules/fine-uploader-traditional-server/nodejs"
   }
 }

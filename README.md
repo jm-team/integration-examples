@@ -4,6 +4,9 @@ Fine Uploader Integration Examples
 
 Using [Fine Uploader][1] to solve real problems.
 
+Update:
+* add a VS Code launch(debug) way to run the server.
+
 
 Here are the examples covered in this repo:
 * [An AngularJS Directive using Fine Uploader UI and node.js][2]

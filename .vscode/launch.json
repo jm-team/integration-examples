@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "启动程序",
+            "program": "${workspaceRoot}/src/angularjs-nodejs/node_modules/fine-uploader-traditional-server/nodejs.js",
+            "cwd": "${workspaceRoot}",
+            "env": {
+                "PUBLIC_DIR": "${workspaceRoot}/src/angularjs-nodejs",
+                "NODE_MODULES_DIR": "${workspaceRoot}/src/angularjs-nodejs/node_modules/",
+                "UPLOADED_FILES_DIR": "${workspaceRoot}/src/angularjs-nodejs/uploads/"
+            }
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "附加到进程",
+            "port": 5858
+        }
+    ]
+}
