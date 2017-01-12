@@ -6,6 +6,8 @@ Using [Fine Uploader][1] to solve real problems.
 
 Update:
 * add a VS Code launch(debug) way to run the server.
+* demo picture
+![Uploading Images](https://raw.githubusercontent.com/jm-team/integration-examples/master/src/angularjs-nodejs/upload-snapshot.png)
 
 
 Here are the examples covered in this repo:
